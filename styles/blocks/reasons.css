@@ -1,0 +1,65 @@
+.reasons {
+  margin-bottom: 38px;
+}
+
+.reason-photo {
+  width: 320px;
+  height: 256px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #c6e4f1;
+}
+
+.reason-photo.city {
+  background-image: url(/img/photo-city@1x.jpg);
+}
+
+.reason-photo.bridge {
+  background-image: url(/img/photo-bridge@1x.jpg);
+}
+
+.reasons-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.reasons-title {
+  padding: 0 20px;
+  margin-bottom: 28px;
+}
+
+.reasons-description {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.reason-title {
+  margin-bottom: 12px;
+}
+
+.reason-number {
+  margin-bottom: 16px;
+}
+
+.reasons-item.full .reason {
+  background-color: #81b3d2;
+  color: #ffffff;
+  padding: 36px 20px;
+}
+
+.reasons-item.short .reason {
+  background-color: #eeeeee;
+  padding: 24px 20px;
+}
+
+.reasons-item.short:not(:last-child)::after {
+  content: "";
+  background-color: #d6d6d6;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  height: 1px;
+}

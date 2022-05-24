@@ -1,0 +1,36 @@
+.banner {
+  position: relative;
+  background-position: center;
+  background-image: url(/img/back-desktop.jpg);
+  background-color: #c6e4f1;
+  margin-bottom: 32px;
+}
+
+.banner-main {
+  width: 320px;
+  height: 389px;
+}
+
+.banner-form {
+  width: 320px;
+  height: 157px;
+}
+
+.banner-text {
+  position: absolute;
+}
+
+.banner-text-main {
+  /* height: 66.9%;
+  width: 87.5%; */
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15%;
+}
+
+.banner-text-form {
+  fill: #ffffff;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+}

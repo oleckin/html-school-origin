@@ -1,0 +1,27 @@
+.checkbox-label {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  text-transform: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.custom-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: #f2f2f2;
+}
+
+.checkbox-icon {
+  display: none;
+}
+
+.checkbox__input:checked + .custom-checkbox > .checkbox-icon {
+  display: inline;
+}

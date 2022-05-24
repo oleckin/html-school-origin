@@ -1,0 +1,67 @@
+.form-title {
+  padding: 0 20px;
+  margin-bottom: 28px;
+}
+
+.form-title-description {
+  padding: 0 20px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.label-person-name {
+  display: flex;
+  gap: 12px;
+}
+
+.form-fields-item.person-name:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.label-person-name-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label-person-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.label-person-contacts-text {
+  padding-left: 24px;
+}
+
+.form-fields-item.person-contacts:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.emotions {
+  text-transform: none;
+  height: 160px;
+}
+
+.submit-button {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.form-action {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 20px 30px;
+}
+
+.radio-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

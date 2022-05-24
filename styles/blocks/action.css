@@ -1,0 +1,16 @@
+.action {
+  margin-bottom: 48px;
+  padding: 0 20px;
+}
+
+.action-title {
+  margin-bottom: 24px;
+}
+
+.action-subtitle {
+  margin-bottom: 24px;
+}
+
+.action-link {
+  width: 100%;
+}

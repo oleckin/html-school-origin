@@ -1,0 +1,18 @@
+.map {
+  display: flex;
+  width: 320px;
+  height: 350px;
+  background-position: center;
+  background-image: url(/img/map.jpg);
+  background-color: #c6e4f1;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-point {
+  height: 27px;
+  width: 27px;
+  background-color: #81b3d2;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}

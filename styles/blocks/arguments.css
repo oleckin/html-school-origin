@@ -1,0 +1,30 @@
+.arguments {
+  display: flex;
+  flex-direction: column;
+  padding: 28px 20px 36px;
+}
+
+.arguments-item {
+  margin-bottom: 18px;
+}
+
+.argument {
+  display: flex;
+}
+
+.argument-icon-wrapper {
+  margin-right: 12px;
+}
+
+.argument-text-wrapper {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.argument-title {
+  margin-bottom: 16px;
+}
+
+.argument-icon {
+  fill: #81b3d2;
+}

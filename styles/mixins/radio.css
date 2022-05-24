@@ -1,0 +1,24 @@
+.radio-label {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  text-transform: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.custom-radio {
+  display: flex;
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  border: 24px solid #f2f2f2;
+  background-color: #333333;
+}
+
+.radio__input:checked + .custom-radio {
+  border-width: 15px;
+}
